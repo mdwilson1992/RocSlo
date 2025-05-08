@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+
+.carousel-img-1 {
+    background-image: url(../images/amber-c1.jpg);
+}
+
+.carousel-img-2 {
+    background-image: url(../images/amber-c2.jpg);
+}
+
+.carousel-img-3 {
+    background-image: url(../images/amber-c3.jpg);
+}
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+}
+
+.hero-section {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: lightgray;
+    letter-spacing: .4rem;
+    width: 75%
+}
+
+.hero-section h1 {
+    font-size: 7vw;
+    font-weight: 100;
+}
+
+.offcanvas-info {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.offcanvas-title {
+    font-weight: 250;
+    font-size: 25px;
+}
+
+.offcanvas {
+    background-color: #f5f4f0;
+}
+
+.navbar-nav .nav-link {
+    color: black; /* Set the text color to black */
+}
+
+.offcanvas-body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offcanvas-social-media {
+    
+}
+.offcanvas-social-media-container {
+    display: flex;
+    justify-content: center; /* Align the icons to the left (optional, depending on your design) */
+    gap: 15px; /* Optional: Creates space between the social media icons */
+}
+
+.offcanvas-social-media a img {
+    height: 100%;
+    padding: 0 10px;
+}
+
+
