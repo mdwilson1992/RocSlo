@@ -141,106 +141,108 @@
             </div>
         </div>
         <div class="container-fluid my-5" style="padding: 0;">
-            <div class="row form-row">
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="first-name">First Name</span>
-                        <input type="text" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping">
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+                <div class="row form-row">
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="first-name">First Name</span>
+                            <input type="text" class="form-control" name="First&nbsp;Name" aria-label="Username" aria-describedby="addon-wrapping" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="last-name">Last Name</span>
+                            <input type="text" class="form-control" name="Last&nbsp;Name"  aria-label="Username" aria-describedby="addon-wrapping" required>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="last-name">Last Name</span>
-                        <input type="text" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping">
+                <div class="row form-row">
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="first-name">Telephone</span>
+                            <input type="tel" class="form-control" name="Phone"  aria-label="Username" aria-describedby="addon-wrapping" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="last-name">Email</span>
+                            <input type="email" class="form-control" name="Email" aria-label="Username" aria-describedby="addon-wrapping" required>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row form-row">
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="first-name">Telephone</span>
-                        <input type="tel" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping">
+                <div class="row form-row">
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="first-name">Property Address</span>
+                            <input type="text" class="form-control" name="Property&nbsp;Address" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="last-name">Property Square Footage</span>
+                            <input type="text" class="form-control" name="Square&nbsp;Footage" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="last-name">Email</span>
-                        <input type="email" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                <div class="row form-row">
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="first-name">Bedrooms</span>
+                            <input type="number" min="0" max="15" class="form-control" name="Bedrooms" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="last-name">Bathrooms</span>
+                            <input type="number" min="0" max="15" step=".5" class="form-control" name="Bathrooms" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row form-row">
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="first-name">Property Address</span>
-                        <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                <div class="row form-row">
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="first-name">Project Start Date</span>
+                            <input type="date" class="form-control" name="Start&nbsp;Date"  aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="last-name">Project End Date</span>
+                            <input type="date" class="form-control" name="End&nbsp;Date"  aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="last-name">Property Square Footage</span>
-                        <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                <div class="row form-row mb-3">
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="first-name">Estimated Construction Budget
+                                <span class="ps-5">$</span>
+                            </span>
+                            <input type="text" class="form-control" name="Contruction&nbsp;Budget"  aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="last-name">Estimated Furniture & Decor Budget 
+                                <span class="ps-5">$</span>
+                            </span>
+                            <input type="text" class="form-control" name="Furniture&nbsp;Budget"  aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row form-row">
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="first-name">Bedrooms</span>
-                        <input type="number" min="0" max="15" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
+                <div class="mb-3">
+                    <label for="scopeofwork" class="form-label">Scope of Work to Be Included*</label>
+                    <textarea class="form-control" name="Scope&nbsp;of&nbsp;Work" id="scopeofwork" rows="3"></textarea>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="last-name">Bathrooms</span>
-                        <input type="number" min="0" max="15" step=".5" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
+                <div class="mb-5">
+                    <label for="additionalquestions" class="form-label">Additional Questions and Comments
+                    </label>
+                    <textarea class="form-control" name="Questions&nbsp;and&nbsp;Questions" id="additionalquestions" rows="3"></textarea>
                 </div>
-            </div>
-            <div class="row form-row">
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="first-name">Project Start Date</span>
-                        <input type="date" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
+                <div class="d-flex justify-content-end">
+                    <button class="form-submit-btn mb-5" type="submit" class="btn btn-light">Submit</button>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="last-name">Project End Date</span>
-                        <input type="date" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                </div>
-            </div>
-            <div class="row form-row mb-3">
-                <div class="col-md-6 mb-3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="first-name">Estimated Construction Budget
-                            <span class="ps-5">$</span>
-                        </span>
-                        <input type="text" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="last-name">Estimated Furniture & Decor Budget 
-                            <span class="ps-5">$</span>
-                        </span>
-                        <input type="text" class="form-control"  aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                </div>
-            </div>
-            <div class="mb-3">
-                <label for="scopeofwork" class="form-label">Scope of Work to Be Included*</label>
-                <textarea class="form-control" id="scopeofwork" rows="3"></textarea>
-            </div>
-            <div class="mb-5">
-                <label for="additionalquestions" class="form-label">Additional Questions and Comments
-                </label>
-                <textarea class="form-control" id="additionalquestions" rows="3"></textarea>
-            </div>
-            <div class="d-flex justify-content-end">
-                <button class="form-submit-btn mb-5" type="submit" class="btn btn-light">Submit</button>
-            </div>
+            </form>
         </div>
     </div>
 
